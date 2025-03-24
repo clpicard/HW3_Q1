@@ -1,3 +1,25 @@
+
+/*************************************************************************
+** Author : Caden Picard
+** Program : HW3, Q1
+** Date Created : March 24, 2025
+** Date Last Modified : March 24, 2025
+** Usage : No command line arguments
+**
+** Problem:
+Create a Person base class with Student, GradStudent, and UndergradStudent subclasses.
+The Person class should include:
+- getName() and getBirthdate() functions.
+- The Student class should include a `num_credits` attribute
+- The GradStudent class should include a `thesis_title` attribute
+- The UndergradStudent class should include a `club_name` attribute
+
+** Demonstration:
+- Create a Person, Student, GradStudent, and UndergradStudent object.
+- Display details such as name, birthdate, and respective data attributes.
+- Update attributes using mutators and verify with accessors.
+*************************************************************************/
+
 #include <iostream>
 #include "Person.h"
 using namespace std;
